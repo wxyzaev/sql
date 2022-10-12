@@ -25,3 +25,16 @@ UPDATE tCityNew SET popu = 1000 WHERE name = '서울';
 UPDATE tCityNew SET area = 900 WHERE name = '부산';
 DELETE FROM tCityNew WHERE name = '춘천';
 INSERT INTO tCityNew VALUES ('이천', 461, 21, 'n', '경기');
+
+
+
+-- 도시 인구 테이블
+CREATE TABLE tCityPopu
+(
+	name CHAR(10) PRIMARY KEY,
+	popu INT NULL
+);
+
+INSERT INTO tCityPopu VALUES ('서울', 1000);
+INSERT INTO tCityPopu VALUES ('부산', 500);
+INSERT INTO tCityPopu VALUES ('춘천', 100);
