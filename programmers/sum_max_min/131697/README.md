@@ -1,6 +1,6 @@
 # 가장 비싼 상품 구하기
 
-[프로그래머스 > SUM, MAX, MIN > 상품 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131697)
+[프로그래머스 > SUM, MAX, MIN > 가장 비싼 상품 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131697)
 
 <br/>
 
