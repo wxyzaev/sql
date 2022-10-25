@@ -35,7 +35,6 @@
 
 <br/>
 
-
 `ANIMAL_OUTS` 테이블의 `ANIMAL_ID`는 `ANIMAL_INS`의 `ANIMAL_ID`의 외래 키입니다.
 
 <br/>
