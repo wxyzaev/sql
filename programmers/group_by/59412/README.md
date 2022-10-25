@@ -1,6 +1,6 @@
-# 입양 시각 구하기(1)
+# 입양 시각 구하기 (1)
 
-[프로그래머스 > GROUP BY > 입양 시각 구하기(1)](https://school.programmers.co.kr/learn/courses/30/lessons/59412)
+[프로그래머스 > GROUP BY > 입양 시각 구하기 (1)](https://school.programmers.co.kr/learn/courses/30/lessons/59412)
 
 <br/>
 
