@@ -10,13 +10,11 @@
 
 `FIRST_HALF` 테이블 구조는 다음과 같습니다.
 
-| NAME           | TYPE    | NULLABLE | ALIAS             |
-| -------------- | ------- | -------- | ----------------- |
-| ONLINE_SALE_ID | INTEGER | FALSE    | 온라인 상품 판매 ID |
-| USER_ID        | INTEGER | FALSE    | 회원 ID            |
-| PRODUCT_ID     | INTEGER | FALSE    | 상품 ID            |
-| SALES_AMOUNT   | INTEGER | FALSE    | 판매량             |
-| SALES_DATE     | DATE    | FALSE    | 판매일             |
+| NAME        | TYPE       | NULLABLE | ALIAS                   |
+| ----------- | ---------- | -------- | ----------------------- |
+| SHIPMENT_ID | INT(N)     | FALSE    | 출하 번호                |
+| FLAVOR      | VARCHAR(N) | FALSE    | 아이스크림 맛             |
+| TOTAL_ORDER | INT(N)     | FALSE    | 상반기 아이스크림 총주문량 |
 
 동일한 날짜, 회원 ID, 상품 ID 조합에 대해서는 하나의 판매 데이터만 존재합니다.
 
