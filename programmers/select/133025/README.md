@@ -16,8 +16,6 @@
 | FLAVOR      | VARCHAR(N) | FALSE    | 아이스크림 맛             |
 | TOTAL_ORDER | INT(N)     | FALSE    | 상반기 아이스크림 총주문량 |
 
-동일한 날짜, 회원 ID, 상품 ID 조합에 대해서는 하나의 판매 데이터만 존재합니다.
-
 <br/>
 
 `ICECREAM_INFO` 테이블은 아이스크림 성분에 대한 정보를 담은 테이블입니다.
